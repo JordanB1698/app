@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#43A047"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittext_hint_valor1"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittext_hint_valor2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_resultado" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_aceptar" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_restar" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_multiplicar" />
+
+    <Button
+        android:id="@+id/btnFactorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickFactorial"
+        android:text="@string/button_text_Factorial" />
+
+    <Button
+        android:id="@+id/btnPotencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickPotencia"
+        android:text="@string/button_text_potencia" />
+
+    <Button
+        android:id="@+id/btnMostrarActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickMostrarActivity"
+        android:text="@string/button_text_mostrar_activity" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">fisei</string>
+    <string name="titulo">Sexto Tecnologías de la información</string>
+
+    <string name="edittext_text_valor1">Valor 1</string>
+    <string name="edittext_hint_valor1">Ingrese un número</string>
+
+    <string name="edittext_text_valor2">Valor 2</string>
+    <string name="edittext_hint_valor2">Ingrese un segundo número</string>
+
+    <string name="textview_resultado">Resultado de la operación</string>
+    <string name="button_aceptar">Sumar</string>
+    <string name="button_text_restar">Restar</string>
+    <string name="button_text_multiplicar">Multiplicar</string>
+    <string name="button_text_Factorial">Factorial</string>
+    <string name="button_text_potencia">Potencia</string>
+    <string name="button_text_mostrar_activity">Mostrar activity</string>
+    <string name="btnVolver">Regresar</string>
+
+
+</resources>
